@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1026421751332",
+    "firebase_url": "https://library-book-requisition-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "library-book-requisition",
+    "storage_bucket": "library-book-requisition.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026421751332:android:92628ac29ebd901777a2b1",
+        "android_client_info": {
+          "package_name": "com.example.librarybookrequisition"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026421751332-128gi75tdi7td5re9g2dbtk56j5r7nio.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.librarybookrequisition",
+            "certificate_hash": "c13be5ca0e78ebd3ec28f4b7a0ab14b18fa840ab"
+          }
+        },
+        {
+          "client_id": "1026421751332-olv6phbfktu82sk536ke71j3tpm90oko.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.librarybookrequisition",
+            "certificate_hash": "3c8444ac8f73388b8fd7c7c92bbcbd476c5ec610"
+          }
+        },
+        {
+          "client_id": "1026421751332-d5m09vkogpfcvtjev0etrnno2lukjbpv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUJ2cGrjNEd2wFzpPFXumx1Wx4gEwbgxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026421751332-d5m09vkogpfcvtjev0etrnno2lukjbpv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
