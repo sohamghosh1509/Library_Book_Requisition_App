@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.LibraryBookRequisition" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/cyan</item>
-        <item name="colorPrimaryVariant">@color/cyan_light</item>
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/orange</item>
@@ -16,8 +16,8 @@
 
     <style name="NoAppBar" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/cyan</item>
-        <item name="colorPrimaryVariant">@color/cyan_light</item>
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/orange</item>

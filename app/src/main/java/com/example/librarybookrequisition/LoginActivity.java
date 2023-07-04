@@ -26,9 +26,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.GoogleAuthProvider;
 import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
 import java.util.HashMap;
 
@@ -40,7 +38,7 @@ public class LoginActivity extends AppCompatActivity {
     Button signInButton;
     Spinner spinner;
 
-    String[] roles = {"Admin", "User"};
+    String[] roles = {"Select Role", "Librarian", "Student"};
     String userRole = "";
 
     @Override
@@ -59,7 +57,7 @@ public class LoginActivity extends AppCompatActivity {
 
 
         spinner = (Spinner) findViewById(R.id.spinner);
-        //Creating the ArrayAdapter instance having the country list
+        //Creating the ArrayAdapter instance having the Roles list
         ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_spinner_item, roles);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         //Setting the ArrayAdapter data on the Spinner
@@ -69,7 +67,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
 
                 userRole = roles[i];
-                Toast.makeText(getApplicationContext(), roles[i], Toast.LENGTH_LONG).show();
+//                Toast.makeText(getApplicationContext(), roles[i], Toast.LENGTH_LONG).show();
             }
 
             @Override
@@ -80,29 +78,28 @@ public class LoginActivity extends AppCompatActivity {
         signInButton = (Button) findViewById(R.id.GoogleSignInBtn);
 
 
-        //Google Signin Options to get gmail and performa gmail login
+        //Google Signin Options to get gmail and perform gmail login
         GoogleSignInOptions googleSignInOptions = new GoogleSignInOptions
                 .Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestIdToken("1026421751332-d5m09vkogpfcvtjev0etrnno2lukjbpv.apps.googleusercontent.com")
                 .requestEmail()
                 .build();
 
-        mSignInClient = GoogleSignIn.getClient(this, googleSignInOptions);
+        mSignInClient = GoogleSignIn.getClient(getApplicationContext(), googleSignInOptions);
 
 
         //Implementing OnClickListener to perform Login action
         signInButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                //Showing all Gmails
-                Intent intent = mSignInClient.getSignInIntent();
-                startActivityForResult(intent, 100);
-
+                if(userRole.equals("Librarian") || userRole.equals("Student"))
+                {
+                    //Showing all Gmails
+                    Intent intent = mSignInClient.getSignInIntent();
+                    startActivityForResult(intent, 100);
+                }
             }
         });
-
-
     }
 
     //checking if user/admin already Logged In
@@ -181,7 +178,15 @@ public class LoginActivity extends AppCompatActivity {
                                             if (task.isSuccessful()) {
 
                                                 progressBar.cancel();
-                                                adminOruser(userRole);
+                                                if(userRole.equals("Student"))
+                                                {
+                                                    Intent intent = new Intent(getApplicationContext(), UserDetailsActivity.class);
+                                                    //Clears older activities and tasks
+                                                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                                                    startActivity(intent);
+                                                }
+                                                else
+                                                    adminOruser(userRole);
                                             }
                                         }
                                     });
@@ -195,25 +200,21 @@ public class LoginActivity extends AppCompatActivity {
                 }
             }
         }
-
     }
-
-    //Role-based display of UI
     public void adminOruser(String userRole)
     {
-        if (userRole.equals("Admin")) {
+        if (userRole.equals("Librarian")) {
             //navigating to the main activity after user successfully registers
-            Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+            Intent intent = new Intent(getApplicationContext(), AdminActivity.class);
             //Clears older activities and tasks
             intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
             startActivity(intent);
         } else {
             //navigating to the main activity after user successfully registers
-//           Intent intent = new Intent(getApplicationContext(), UserDetailsActivity.class);
+           Intent intent = new Intent(getApplicationContext(), UserActivity.class);
             //Clears older activities and tasks
-//           intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-//           startActivity(intent);
+           intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+           startActivity(intent);
         }
     }
-
 }

@@ -3,9 +3,64 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main Latest updated 1.11.22/LibraryBookRequisition-App-main/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main Latest updated 1.11.22/LibraryBookRequisition-App-main/app/src/main/res/layout/edit_book_details_layout.xml" value="0.264" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main Latest updated 1.11.22/LibraryBookRequisition-App-main/app/src/main/res/layout/fragment_admin_dashboard.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main Latest updated 1.11.22/LibraryBookRequisition-App-main/app/src/main/res/layout/fragment_admin_library_books.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main Latest updated 1.11.22/LibraryBookRequisition-App-main/app/src/main/res/layout/fragment_check_books.xml" value="0.12360688956433637" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main Latest updated 1.11.22/LibraryBookRequisition-App-main/app/src/main/res/layout/fragment_user_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main Latest updated 1.11.22/LibraryBookRequisition-App-main/app/src/main/res/layout/single_admin_dashboard.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main Latest updated 1.11.22/LibraryBookRequisition-App-main/app/src/main/res/layout/single_book_layout.xml" value="0.264" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main Latest updated 1.11.22/LibraryBookRequisition-App-main/app/src/main/res/layout/single_book_layout_admin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main Latest updated 1.11.22/LibraryBookRequisition-App-main/app/src/main/res/layout/single_report_layout.xml" value="0.264" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/drawable/profile_icon.xml" value="0.175" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/CollectBookActivity.xml" value="0.12360688956433637" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/activity_add_books_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/activity_admin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/activity_admin_profile_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/activity_edit_book_details.xml" value="0.25416666666666665" />
         <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/activity_home.xml" value="0.22826086956521738" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/activity_request_book.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/activity_request_new_title.xml" value="0.2" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/activity_students_requests_report.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/activity_user.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/activity_user_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/admin_notifications_layout.xml" value="0.264" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/edit_book_details_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/fragment_add_books.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/fragment_admin_dashboard.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/fragment_admin_library_books.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/fragment_admin_new_title_requests.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/fragment_admin_notifications.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/fragment_admin_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/fragment_check_books.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/fragment_notifications.xml" value="0.12360688956433637" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/fragment_user_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/fragment_user_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/single_admin_dashboard.xml" value="0.264" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/single_admin_new_title_requests_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/single_book_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/single_book_layout_admin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/single_notification_layout_admin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/single_report_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/layout/user_notifications_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/menu/admin_navigation_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Studio Projects/LibraryBookRequisition-App-main/app/src/main/res/menu/user_navigation_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/AndroidStudioProjects/LibraryBookRequisition-App-main Final 6.11.2022/LibraryBookRequisition-App-main/app/src/main/res/layout/activity_students_requests_report.xml" value="0.2463768115942029" />
+        <entry key="..\:/AndroidStudioProjects/LibraryBookRequisition-App-main Final 6.11.2022/LibraryBookRequisition-App-main/app/src/main/res/layout/single_report_layout.xml" value="0.203125" />
         <entry key="..\:/AndroidStudioProjects/LibraryBookRequisition/app/src/main/res/layout/activity_login.xml" value="0.25052083333333336" />
         <entry key="..\:/AndroidStudioProjects/LibraryBookRequisition/app/src/main/res/layout/activity_splash_screen.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Soham/Downloads/LibraryBookRequisition-App-main Latest updated 31.10.22/LibraryBookRequisition-App-main/app/src/main/res/layout/activity_edit_book_details.xml" value="0.203125" />
+        <entry key="..\:/Users/Soham/Downloads/LibraryBookRequisition-App-main Latest updated 31.10.22/LibraryBookRequisition-App-main/app/src/main/res/layout/activity_user.xml" value="0.203125" />
+        <entry key="..\:/Users/Soham/Downloads/LibraryBookRequisition-App-main Latest updated 31.10.22/LibraryBookRequisition-App-main/app/src/main/res/layout/edit_book_details_layout.xml" value="0.203125" />
+        <entry key="..\:/Users/Soham/Downloads/LibraryBookRequisition-App-main Latest updated 31.10.22/LibraryBookRequisition-App-main/app/src/main/res/layout/fragment_add_books.xml" value="0.203125" />
+        <entry key="..\:/Users/Soham/Downloads/LibraryBookRequisition-App-main Latest updated 31.10.22/LibraryBookRequisition-App-main/app/src/main/res/layout/fragment_user_home.xml" value="0.203125" />
+        <entry key="..\:/Users/Soham/Downloads/LibraryBookRequisition-App-main Latest updated 31.10.22/LibraryBookRequisition-App-main/app/src/main/res/layout/single_book_layout.xml" value="0.203125" />
+        <entry key="..\:/Users/Soham/Downloads/LibraryBookRequisition-App-main Latest updated 31.10.22/LibraryBookRequisition-App-main/app/src/main/res/layout/single_book_layout_admin.xml" value="0.203125" />
+        <entry key="..\:/Users/Soham/Downloads/LibraryBookRequisition-App-main Latest updated 31.10.22/LibraryBookRequisition-App-main/app/src/main/res/layout/single_report_layout.xml" value="0.203125" />
+        <entry key="..\:/Users/Soham/Downloads/LibraryBookRequisition-App-main Latest updated 31.10.22/LibraryBookRequisition-App-main/app/src/main/res/menu/user_navigation_menu.xml" value="0.203125" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/LibraryBookRequisition/app/src/main/res/layout/activity_login.xml" value="0.22010869565217392" />
         <entry key="..\:/Users/USER/AndroidStudioProjects/LibraryBookRequisition/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
       </map>

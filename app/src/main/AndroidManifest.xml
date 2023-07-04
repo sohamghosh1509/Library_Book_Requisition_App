@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.librarybookrequisition">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,11 +15,41 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LibraryBookRequisition">
         <activity
-            android:name=".HomeActivity"
+            android:name=".StudentsRequestsReport"
+            android:exported="false" />
+        <activity
+            android:name=".AdminLibraryBooksFragment"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfileFragment"
+            android:exported="false" />
+        <activity
+            android:name=".CheckBooksFragment"
+            android:exported="false" />
+        <activity
+            android:name=".AdminProfileFragment"
+            android:exported="false" />
+        <activity
+            android:name=".AddBooksFragment"
+            android:exported="false" />
+        <activity
+            android:name=".UserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminActivity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
             android:exported="false" />
+        <activity
+            android:name=".UserDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RequestNewTitleActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".EditBookDetailsActivity"
+            android:exported="false"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"

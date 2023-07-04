@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/RequestDashboardMenu"
+        android:title="Requests Dashboard"/>
+
+    <item
+        android:id="@+id/AddBookMenu"
+        android:title="Add Book" />
+
+    <item
+        android:id="@+id/LibraryBooksMenu"
+        android:title="All Available Books" />
+
+    <item
+        android:id="@+id/NewTitleRequestsMenu"
+        android:title="New Title Requests" />
+
+    <item
+        android:id="@+id/AdminProfile"
+        android:title="Profile" />
+
+</menu>
